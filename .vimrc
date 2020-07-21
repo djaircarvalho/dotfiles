@@ -61,6 +61,7 @@ call vundle#end()            " required
 
 syntax enable
 syntax sync fromstart
-
+set number
+set colorcolumn=80
 colorscheme dracula
-
+source ~/.profile
